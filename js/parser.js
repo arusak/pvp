@@ -1,6 +1,6 @@
 import makeTextFileLineIterator from './iterator.js';
 
-const urlOfFile = '../data/sample.csv';
+const urlOfFile = 'data/sample.csv';
 
 async function parse() {
     let result = [];
