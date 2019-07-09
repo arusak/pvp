@@ -3,7 +3,12 @@ html {
   font-family: Lato, Fira, Verdana, Arial, sans-serif;
 }
 
-.item {
+.bar-chart .item {
+  display: inline-block;
+  width: 5px;
+}
+
+.bar-chart .item .bar{
   background: teal;
 }
 
