@@ -3,9 +3,18 @@ html {
   font-family: Lato, Fira, Verdana, Arial, sans-serif;
 }
 
+nav a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .bar-chart .item {
   display: inline-block;
   width: 5px;
+}
+
+.pyramid {
+  display: none;
 }
 
 .bar-chart .item .bar{

@@ -4,7 +4,8 @@ function create(data) {
     const males = count(data.filter(person => person[1] === 'M'));
     const females = count(data.filter(person => person[1] === 'F'));
 
-    const pyramidEl = document.createElement('div');
+    const pyramidEl = Object.assign(document.createElement('div'), {className: 'chart pyramid'});
+
     Object.keys(count(data)).forEach(year => {
         const yearEl = document.createElement('div');
 

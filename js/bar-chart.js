@@ -7,7 +7,7 @@ function create(data) {
     const maxYear = Math.max(...allYears);
 
     const chart = document.createElement('div');
-    chart.className = 'bar-chart';
+    chart.className = 'chart bar-chart';
 
     for (let y = minYear; y <= maxYear; y++) {
         const count = stats[y];
